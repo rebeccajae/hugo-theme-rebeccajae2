@@ -1,0 +1,107 @@
+@font-face{
+    font-family:"Radikal W01 Medium";
+    src:url("633e44e3-6556-46ce-8844-33248b683573.eot?#iefix");
+    src:url("633e44e3-6556-46ce-8844-33248b683573.eot?#iefix") format("eot"),url("10fd958a-ca77-4dfa-9d82-aa8c70208b87.woff2") format("woff2"),url("a583bfda-a81b-49ea-afde-85a5035cf5bc.woff") format("woff"),url("26a1a62d-77d6-49c1-8c4e-8d77e46a3043.ttf") format("truetype");
+}
+
+
+body {
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  background-color: #000000;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  color: #FFFFFF;
+  font-variant-ligatures: no-common-ligatures;
+
+}
+.font{
+  font-family: 'Radikal W01 Medium', sans-serif;
+}
+#error{
+  font-size: 6.5vw;
+  margin-top: 5vh;
+  line-height: 1;
+}
+
+a:link, a:visited{
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffafc7;
+}
+a:hover, a:active{
+
+  font-style: italic;
+  color: #ffafc7;
+}
+
+.homelink:link, .homelink:visited, .homelink:hover, .homelink:active {
+  text-decoration: underline dashed;
+  color: #ffafc7;
+}
+
+#errmsg{
+  padding-top: 2vh;
+  font-size: 3.5vw;
+  padding-bottom: 1vh;
+  line-height: 1.05;
+}
+#heading{
+  border-bottom: 2px dashed white;
+  font-size: 3vw;
+  margin-top: 3vh;
+  padding-bottom: 1vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: flex-start;
+}
+
+#footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 12pt;
+}
+
+.nav{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav:first-child > span { margin-right: auto; }
+
+.nav:last-child  > span { margin-left: auto;  }
+
+.details{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.header-title{
+    line-height: 1;
+}
+
+.title{
+  font-size: 4vw;
+  line-height: 1;
+}
+
+.synopsis{
+  font-size: 16pt;
+  line-height: 1.2;
+}
+
+.details{
+    border-bottom: 2px dashed white;
+}
+
+.header-desc{
+  align-self: flex-end;
+}

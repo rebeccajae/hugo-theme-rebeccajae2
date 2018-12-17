@@ -1,0 +1,5 @@
+# Avoid accidentally violating copyright.
+*.eot
+*.woff2
+*.woff
+*.ttf
