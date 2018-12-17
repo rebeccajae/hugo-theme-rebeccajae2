@@ -23,6 +23,32 @@ body {
   margin-top: 5vh;
   line-height: 1;
 }
+.title{
+  color: #ffffff !important;
+}
+.title:link, .title:visited{
+  font-weight: normal;
+  color: #ffffff !important;
+}
+
+.title:hover, .title:active {
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff !important;
+}
+
+
+
+.titlelink:link, .titlelink:visited{
+  font-weight: normal;
+  color: #ffffff !important;
+}
+
+.titlelink:hover, .titlelink:active {
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff !important;
+}
 
 a:link, a:visited{
   font-weight: bold;
@@ -38,6 +64,12 @@ a:hover, a:active{
 .homelink:link, .homelink:visited, .homelink:hover, .homelink:active {
   text-decoration: underline dashed;
   color: #ffafc7;
+}
+
+
+
+#footer-nonav{
+  margin-top: 5vh;
 }
 
 #errmsg{
@@ -88,6 +120,10 @@ a:hover, a:active{
     line-height: 1;
 }
 
+pre{
+  border: 2px dashed white;
+  padding: 10px;
+}
 .title{
   font-size: 4vw;
   line-height: 1;

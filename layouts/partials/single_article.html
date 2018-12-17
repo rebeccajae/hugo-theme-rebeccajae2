@@ -1,7 +1,7 @@
 <div class="article">
   <div class="font"><a class="title" href="{{ .Permalink }}">{{ .Title }}</a></div>
   <div class="synopsis">
-    {{ .Description | default .Summary }}
+    {{ .Content }}
   </div>
   <div class="details">
     <div class="posted"><time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time></div>
